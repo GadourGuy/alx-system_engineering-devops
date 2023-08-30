@@ -1,2 +1,1 @@
-# alx-system_engineering-devops
-repo for shell basics
+this repo show us how to excute simple scripts in shell
