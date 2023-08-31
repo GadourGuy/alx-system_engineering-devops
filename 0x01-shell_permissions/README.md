@@ -1,0 +1,1 @@
+Today lesson consists of shell premissions and how to deal with them
