@@ -1,1 +1,1 @@
-this repo show us how to excute simple scripts in shell
+0x02-shell_redirections will let us learn important concepts about input&output redirection
