@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # diplays content of a file
 
-for File in $(ls)
+for File in *
 do
 	echo $File | cut -d'-' -f2
 done
