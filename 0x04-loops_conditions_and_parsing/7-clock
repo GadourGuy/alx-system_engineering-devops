@@ -1,1 +1,14 @@
 #!/usr/bin/env bash
+# shows a clock for 12 hours
+
+i=0
+j=1
+while [ "$i" -lt 13 ]; do
+	echo "Hour: $i"
+	 j=1
+	 ((i++))
+	while [ $j -lt 60 ]; do
+		echo "$j"
+		((j++))
+	done
+done
