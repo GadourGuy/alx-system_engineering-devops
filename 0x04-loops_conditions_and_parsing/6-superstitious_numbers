@@ -1,26 +1,27 @@
 #!/usr/bin/env bash
-#displays certain string with certain values
+# cultures with numbers ...
 
-count=1
+i=1
 
-while [ "$count" -lt 21 ]; do
+while [ "$i" -lt 21 ]; do
+  
+  case "$i" in
+    4)
+      echo "$i"
+      echo "bad luck from China"
+      ;;
+    9)
+      echo "$i"
+      echo "bad luck from Japan"
+      ;;
+    17)
+      echo "$i"
+      echo "bad luck from Italy"
+      ;;
+    *)
+      echo "$i"
+      ;;
+  esac
 
-	case "$count" in
-	4)
-		echo "$count"
-		echo "bad luck from China"
-		;;
-	9)
-		echo "$count"
-		echo "bad luck from Japan"
-		;;
-	17)
-		echo "$count"
-		echo "bad luck from Japan"
-		;;
-	*)
-		echo "$count"
-		;;
-	esac
-	((count++))
+  ((i++))
 done
