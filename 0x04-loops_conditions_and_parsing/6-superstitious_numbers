@@ -1,23 +1,23 @@
 #!/usr/bin/env bash
 #displays certain string with certain values
 export count=1
-while [ $count -le 20 ];
+while [ "$count" -lt 21 ];
 do
-	case $count in
+	case "$count" in
 		4)
-			echo $count
+			echo "$count"
 			echo "bad luck from China"
 			;;
 		9)
-			echo $count
+			echo "$count"
 			echo "bad luck from Japan"
 			;;
 		17)
-			echo $count
+			echo "$count"
 			echo "bad luck from Japan"
 			;;
 		*)
-			echo $count
+			echo "$count"
 			;;
 	esac
 	((count++))
