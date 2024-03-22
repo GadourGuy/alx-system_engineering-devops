@@ -1,10 +1,5 @@
-#installing flask
-package { 'python3-pip':
-ensure  => installed,
-}
-
-package { 'flask':
-ensure   => present,
-provider => 'pip3',
-require  => Package['python3-pip'],
+# Install puppet-lint
+package { 'puppet-lint':
+  ensure   => '2.5.0',
+  provider => 'gem'
 }
